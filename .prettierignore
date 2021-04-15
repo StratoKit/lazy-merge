@@ -1,0 +1,6 @@
+.git/
+coverage/
+dist/
+
+pnpm-lock.yaml
+package.json

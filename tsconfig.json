@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
+    "jsx": "preserve",
+    // Check JS files too
+    "allowJs": true,
+    "checkJs": true,
+    // Used for temp builds
+    "outDir": "build"
+  },
+  "exclude": ["node_modules", "coverage", "build"]
+}

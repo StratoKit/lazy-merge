@@ -1,0 +1,11 @@
+{
+	"arrowParens": "avoid",
+	"bracketSpacing": false,
+	"jsdocParser": true,
+	"jsdocUseInlineCommentForASingleTagBlock": true,
+	"plugins": ["./node_modules/@homer0/prettier-plugin-jsdoc"],
+	"semi": false,
+	"singleQuote": true,
+	"trailingComma": "es5",
+	"useTabs": true
+}

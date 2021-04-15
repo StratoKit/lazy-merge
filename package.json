@@ -1,0 +1,45 @@
+{
+	"name": "lazy-recursive-merge",
+	"version": "1.0.0",
+	"description": "Deep-merge objects with lazily-called accessor functions",
+	"keywords": [
+		"plugin",
+		"plugins",
+		"config",
+		"configuration",
+		"lazy"
+	],
+	"repository": {
+		"type": "git",
+		"url": "ssh://git@github.com/StratoKit/lazy-recursive-merge.git"
+	},
+	"main": "dist/lazy-recursive-merge.js",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "nps build",
+		"preinstall": "node -e 'process.env.npm_config_user_agent.startsWith(\"pnpm/\")||console.log(\"Use `npx pnpm install` to install dependencies in this repository\\n\")||process.exit(1)'",
+		"start": "nps",
+		"test": "nps test"
+	},
+	"devDependencies": {
+		"@babel/cli": "7.13.14",
+		"@babel/core": "7.13.15",
+		"@babel/eslint-parser": "7.13.14",
+		"@babel/plugin-proposal-class-properties": "^7.13.0",
+		"@babel/preset-env": "7.13.15",
+		"@homer0/prettier-plugin-jsdoc": "^4.0.0",
+		"@types/jest": "^26.0.22",
+		"eslint": "7.24.0",
+		"eslint-config-prettier": "^8.2.0",
+		"eslint-plugin-babel": "5.3.1",
+		"eslint-plugin-jest": "24.3.5",
+		"eslint-plugin-prettier": "^3.4.0",
+		"eslint-plugin-promise": "5.1.0",
+		"jest": "^26.6.3",
+		"nps": "^5.10.0",
+		"nps-utils": "^1.7.0",
+		"prettier": "^2.2.1"
+	}
+}
